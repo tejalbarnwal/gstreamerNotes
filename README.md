@@ -17,11 +17,11 @@ An example pipeline:
 ```
 V4l2src -> video/ x raw format -> videoconvert -> ximagesink
 ```
-where, 
-V4l2src: source element
-video/ x raw format=YUV2 : CAPS filter
-videoconvert: filter element
-ximagesink: sink element
+where, <br>
+V4l2src: source element <br>
+video/ x raw format=YUV2 : CAPS filter <br>
+videoconvert: filter element <br>
+ximagesink: sink element <br>
 
 Each element of the pipeline can be in any of the four states(`NULL`, `READY`, `PAUSED`, `PLAYING`)
 Find more about these states at [link](https://sahilchachra.medium.com/all-you-want-to-get-started-with-gstreamer-in-python-2276d9ed548e).
@@ -54,5 +54,5 @@ You can find the python version of GStreamer tutorials at [link](https://github.
 
 
 References:
-https://youtu.be/VLxAkmi9K-M?si=rrS4arep-TRchOfB 
-https://markwingerd.wordpress.com/2014/11/19/using-gstreamer-with-python/
+* https://youtu.be/VLxAkmi9K-M?si=rrS4arep-TRchOfB 
+* https://markwingerd.wordpress.com/2014/11/19/using-gstreamer-with-python/
